@@ -1,0 +1,51 @@
+/* Общие стили для страницы */
+body {
+  font-family: Arial, sans-serif; 
+  background: #b9a0a0;           
+  text-align: center;             
+  padding: 50px;                  
+}
+
+/* Стили блока слайдера */
+.slider {
+  display: inline-block;                                 
+  border: 2px solid #333;                                
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);              
+  background: white;                                   
+  padding: 20px;                                         
+}
+
+/* Стили для изображения в слайдере */
+.slider img {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px; 
+}
+
+/* Контейнер для кнопок управления */
+.controls {
+  margin-top: 15px; 
+}
+
+/* Стили кнопок (вперёд/назад) */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 0 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background: #3498db; 
+  color: white;        
+}
+
+/* Изменение цвета кнопки при наведении */
+button:hover {
+  background: #2980b9; 
+}
+
+/* Счётчик изображений */
+#counter {
+  font-weight: bold;
+  margin: 0 10px;
+}
